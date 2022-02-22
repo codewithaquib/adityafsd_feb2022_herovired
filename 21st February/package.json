@@ -1,0 +1,12 @@
+{
+  "name": "codewithaquib",
+  "version": "1.0.0",
+  "description": "This is a new Node project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aquib Ajani",
+  "license": "ISC"
+}
