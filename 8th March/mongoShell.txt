@@ -1,0 +1,25 @@
+Connect to MongoDB from the terminal/command prompt
+----------------------------------
+show dbs
+
+use dbName
+
+db.createCollection('collectionName')
+
+show collections
+
+db.collectionName.find()
+
+db.userData.find({name:'Aquib'})
+
+db.userData.insertOne({name:'Aquib', age:52, email:'aquib@tabdeel.in'})
+
+db.userData.updateOne({name:'Jane'},{$set:{city:'Bangalore', email:'jane@gmail.com'}})
+
+db.userData.deleteOne({name:'Jane'})
+
+db.userData.insertMany([{name:'Shreya', age:30},{name:'Prince', age:45},{name:'Rida',age:32}])
+
+db.userData.updateMany({age:30},{$set:{city:'Pune'}})
+
+db.userData.deleteMany({age:30})
