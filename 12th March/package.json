@@ -1,0 +1,23 @@
+{
+  "name": "mylibrary",
+  "version": "1.0.0",
+  "description": "Library Management System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codewithaquib/mylibrary.git"
+  },
+  "author": "Aquib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codewithaquib/mylibrary/issues"
+  },
+  "homepage": "https://github.com/codewithaquib/mylibrary#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.6"
+  }
+}
